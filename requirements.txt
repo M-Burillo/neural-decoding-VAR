@@ -1,0 +1,5 @@
+Beyond Python >= 3.x
+The following libraries are imported 
+import hdf5storage (preprocessing.py)
+import pandas (preprocessing.py)
+import sklearn (not necessary for multitrial fitting of VAR(p) models, but essential for assessing the script analysing them)
