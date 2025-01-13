@@ -54,8 +54,8 @@ This project is going to be published very soon. For obvious reasons, all conten
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/M-Burillo/neural-decoding-VAR
+   cd M-Burillo/neural-decoding-VAR
 ### Structure
 In our project, experiment recordings were in MATLAB format. To convert this into Python-tractable data and extract the High-Frequency component:
 1. `Preprocessing.py`: extracts the high-frequency component (200-500Hz) with a Butterworth bandpass filter. Additionally prepares the Cross-Validation method used throughout the rest of the project. We decided for reasons explained in the `Mathematical, Computer Science and Neuroscience Background` to use a 10-Fold CV, repeating it 10 times, achieving 300 repetitions of the training and testing process
